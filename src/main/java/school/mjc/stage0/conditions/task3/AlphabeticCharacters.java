@@ -8,7 +8,7 @@ public class AlphabeticCharacters {
         if ((character >= 65 && character <= 90) || (character >= 97 && character <= 122)){
           String vowels = "AEIOUaeiou";
           if (vowels.contains(String.valueOf(character))){
-              System.out.println("Vowel");
+               System.out.println("Vowel");
           } else{
               System.out.println("Consonant");
           }

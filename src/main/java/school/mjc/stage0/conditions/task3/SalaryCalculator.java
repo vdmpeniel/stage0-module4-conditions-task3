@@ -5,7 +5,7 @@ public class SalaryCalculator {
 
         int percentage = 0;
         if (salary > 20000){
-            percentage = 20;
+             percentage = 20;
         } else if (salary > 10000){
             percentage = 18;
         } else if (salary >= 0){
